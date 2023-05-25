@@ -1,8 +1,8 @@
-# Office Weather Code Journal
+# Office Weather Development Log
 
 Documentation for me developing this project!
 
-## Code Journal 1 - May 25, 2023
+## Dev Log 1 - May 24, 2023
 
 This project is being developed with interoperability and learning the building blocks in mind. I also need to make sure that feature creep does not cause me to be distracted so often that I don't actually deploy any NFTs (as is typical with me).
 
@@ -24,10 +24,22 @@ The general idea behind this collection and other collections using the splitter
 The primary goal is to use these collections as a development playground to beta test some of my ideas regarding decentralization and interconnectivity as well as to begin the process of community building, with the ultimate goal that all roads lead to the Flarnchain blockchain, and bringing the worlds inside my head to life and "onchain" as they say. I recently read an article about the concept of "onchain" which I'll have to drum up and post here later.
 
 That's it for tonight on the developer log. I was supposed to be writing my newsletter tonight, but I got distracted by this project. I'm going to copy and paste most of this log in my newsletter as a way to fill it out and go to bed at a reasonable time.
-_________________
-| =-=-=-=-=-=-= |
-| = = = = = = = |
-|  - - - - - -  |
-| = = = = = = = |
-| =-=-=-=-=-=-= |
-~~~~~~~~~~~~~~~~~
+
+
+## Dev Log 2 - May 25, 2023
+
+I put some effort into modelling a picture frame based on the Johnny Matthews youtube tutorial. Made a ton of progress and had a working picture frame with one of my art images added to the frame! It was quite exciting, until I went to "mark" the picture as an asset, and then Blender promptly crashed on me. I didn't save at any point along the way, so all of that work was lost. Hopefully I learned a valuable lesson with Blender to *save early and save often*.
+
+I also have been noticing a lot of crashes with fairly benign actions in my version of Blender, which was something like 3.0.2, so I uninstalled that version and installed the latest version of Blender: Blender 3.5.1. Hopefully this version is a lot more stable! I'm feeling a bit defeated after having all my work crash, but I will quickly describe some of the things I need to learn more about / things I was learning while creating the picture frame:
+
+1. Drawing with Bezier Curves - lots of things to learn. I found that the shortcut `ctrl + v` is your friend here.
+2. Joining geometry - connecting vertexes and edges. Not really sure how do do this properly.
+3. UV Unwrapping / UV Mapping - I do not understand this in the slightest!
+4. Materials versus textures, and the shading editor. This stuff completely confounds me.
+5. Marking an object as an asset. That crashed my program on Blender 3.0.2, so hopefully 3.5.1 doesn't do that.
+
+That's all for now. I might dive back into Blender later tonight.
+
+
+
+
