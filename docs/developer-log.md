@@ -56,3 +56,13 @@ There are many services that streamline the process of using IPFS, but the two I
 
 I also need to make this log into a webpage that is easily sharable, so people can read this and see what I'm up to and potentially contribute code or other ideas and suggestions. For now I'm going ask ChatGPT to make a choie for me - which it recommended Github Pages. According to ChatGPT, I should create a Github Pages branch called `gh-pages` then use that branch to commit my dev-logs so that they can be easily formatted as a webpage.
 
+=
+
+Okay so I created a new branch called `gh-pages` and figure this is a good opportunity to push beyond my current skills and understanding of github. Multiple branches still kind of makes my head spin and feels intimidating, but that's how I'll learn.
+
+Anyways, to keep things simple, I'll continue to track my logs here in the main branch and just keep a running history, then whenever I want to update the gh-pages page with my logs I'll just copy and paste the good stuff from this log into the gh-pages log, so that the publicly facing version (this is of course publicly available too, but since its just in a github directory people will need to seek it out rather than like... being a live webpage).
+
+Speaking of a webpage, I think long term, unusual-circumstances should have it's own webpage to increase the quality of the collection, and also to link up with other on-chain stuff that I'm building. That's for another day though. It is *overwhelming* when I consider the amount and variety of skills needed to do this whole thing right. I need to think of that as an exciting *opportunity* rather than just being scary.
+
+End of log for now.
+
