@@ -56,3 +56,17 @@ There are many services that streamline the process of using IPFS, but the two I
 
 I also need to make this log into a webpage that is easily sharable, so people can read this and see what I'm up to and potentially contribute code or other ideas and suggestions. For now I'm going ask ChatGPT to make a choie for me - which it recommended Github Pages. According to ChatGPT, I should create a Github Pages branch called `gh-pages` then use that branch to commit my dev-logs so that they can be easily formatted as a webpage.
 
+===
+
+Okay now this part of the log is in the github pages branch, which I created with the following commands:
+
+`git branch gh-pages`
+`git checkout gh-pages`
+
+Also, we can see the available branches by simply typing:
+
+`git branch`
+
+*moving on...*
+
+Now I need to set up the github pages webpage.
