@@ -32,14 +32,27 @@ I put some effort into modelling a picture frame based on the Johnny Matthews yo
 
 I also have been noticing a lot of crashes with fairly benign actions in my version of Blender, which was something like 3.0.2, so I uninstalled that version and installed the latest version of Blender: Blender 3.5.1. Hopefully this version is a lot more stable! I'm feeling a bit defeated after having all my work crash, but I will quickly describe some of the things I need to learn more about / things I was learning while creating the picture frame:
 
-1. Drawing with Bezier Curves - lots of things to learn. I found that the shortcut `ctrl + v` is your friend here.
-2. Joining geometry - connecting vertexes and edges. Not really sure how do do this properly.
-3. UV Unwrapping / UV Mapping - I do not understand this in the slightest!
-4. Materials versus textures, and the shading editor. This stuff completely confounds me.
-5. Marking an object as an asset. That crashed my program on Blender 3.0.2, so hopefully 3.5.1 doesn't do that.
+1. [x] Drawing with Bezier Curves - lots of things to learn. I found that the shortcut `ctrl + v` is your friend here.
+2. [x] Joining geometry - connecting vertexes and edges. Not really sure how do do this properly.
+3. [o] UV Unwrapping / UV Mapping - I do not understand this in the slightest!
+4. [o] Materials versus textures, and the shading editor. This stuff completely confounds me.
+5. [o] Marking an object as an asset. That crashed my program on Blender 3.0.2, so hopefully 3.5.1 doesn't do that.
 
 That's all for now. I might dive back into Blender later tonight.
 
+## Dev Log 3 - May 29, 2023
 
+I successfully created a picture frame and added one of the art images to it. It looks pretty cool. However, I was not able to successfully create the picture frame as an asset that behaved in the way I wanted to. I could stick the picture to a wall and it orients correctly, but only on walls that are aligned with the x-axis in blender. Walls that are aligned with the y-axis caused the asset placement to rotate counter-clockwise 90 degrees in the wrong direction.
 
+This problem continues to persist, and I even created a Reddit post asking for some help on how to fix the issue. No useful advice has been provided to date. I think wall placement behaving in unexpected ways actually made me discouraged with this project, and I took a couple days off. I'm back at it though, since I need to push forward and start working on what the nft asset itself is going to be.
+
+An NFT is essentially a receipt on a blockchain, that usually points to an image or other piece of media. The other piece of media can be stored on a server or in some other way, such as being stored on the IPFS (the Inter-Planetary File System). Most NFTs are stored on IPFS, because that is a decentralized and immutable way of storing media that will allow said media to persist and not be subjec to the whims of some centralized entity.
+
+There are many services that streamline the process of using IPFS, but the two I am most familiar with and that are mentioned in the Stargaze docs, as well as mentioned in other NFT platform docs are as follows:
+
+- Pinata Cloud
+
+- NFT Storage
+
+I also need to make this log into a webpage that is easily sharable, so people can read this and see what I'm up to and potentially contribute code or other ideas and suggestions. For now I'm going ask ChatGPT to make a choie for me - which it recommended Github Pages. According to ChatGPT, I should create a Github Pages branch called `gh-pages` then use that branch to commit my dev-logs so that they can be easily formatted as a webpage.
 
