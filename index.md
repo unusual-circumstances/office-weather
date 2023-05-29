@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Office Weather NFT Project
 
 Welcome to the developer logs for the Office Weather NFT Project. This project is part of the larger Unusual Circumstances collection. Here, we document the creation process of the project and provide insights into the development work.
