@@ -8,3 +8,5 @@ print('the chosen file has', char, 'characters')
 count_word = open('../docs/developer-log.md')
 word = count_word.read()
 print(len(word))
+
+# WIP!!
