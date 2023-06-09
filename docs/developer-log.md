@@ -66,3 +66,12 @@ Speaking of a webpage, I think long term, unusual-circumstances should have it's
 
 End of log for now.
 
+## Dev Log 4 - June 8, 2023
+
+I spent some time adding art to the spring-deluge collection, only to realize that I was checked out on the gh-pages branch, which is *no bueno* when trying to update the main branch with assets.
+
+This project is serving a super important purpose of helping me to really learn and develop good habits with git. Checking out the gh-pages branch should always be followed up with checking out the main branch after pushing an update to the gh page. Otherwise, I'm going to end up redoing a lot of work...
+
+OR! I could learn git and do some merges when that happens. It shouldn't really be a problem for me. I need to do better.
+
+I also think that whenever I'm struggling with something to work on, I can always just jump on over here and start writing in the dev log. I wonder though... Should the dev log be a separate file for each log rather than one gigantic running file? this file is already getting pretty large. It's only 77 lines of code, but each line is a full paragraph! I think I'm going to setup a python scripts folder to practice regular expressions on this log at the bare minimum.
