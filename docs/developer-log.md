@@ -75,3 +75,30 @@ This project is serving a super important purpose of helping me to really learn 
 OR! I could learn git and do some merges when that happens. It shouldn't really be a problem for me. I need to do better.
 
 I also think that whenever I'm struggling with something to work on, I can always just jump on over here and start writing in the dev log. I wonder though... Should the dev log be a separate file for each log rather than one gigantic running file? this file is already getting pretty large. It's only 77 lines of code, but each line is a full paragraph! I think I'm going to setup a python scripts folder to practice regular expressions on this log at the bare minimum.
+
+## Dev Log 5 - June 9, 2023
+
+Just need to accomplish a couple things to maintain my streak of pushing code and making progress every single day no matter what.
+
+Even writing text in Mark-Up is still coding right?
+
+So anyways, let's talk about metadata.
+
+I need to devise a method to affix metadata to the nfts. I haven't really read much about the process of adding metadata to NFTs just sort of... the process of coming up with metadata for NFTs. The metadata is basically all of the onchain stuff for nfts, so it's actually extremely important.
+
+What I was thinking was... what if the metadata was enough information to get very close to recreating the NFT programatically. The metadata is basically the DNA of the nft.
+
+I think about it like this:
+
+- the metadata is basically the DNA of the NFT
+- the image of the nft is just a pointer to some place off chain
+- when you store the image on the IPFS, you are pointing a telescope into space. Those space objects will forever be there, but they are distant objects that you cannot reach out and touch here on eart.
+- that's images stored in the IPFS.
+- permanent (at least to the best of our knowledge) but distant.
+- what if we could make nfts where the media itself is closer.
+- I understand that storing the bytes associated with raster images or god forbid mp4/gif files would be completely unrealistic given the replicated-state-machine nature of blockchains... so there perhaps is another optimization solution
+- i seek that solution
+
+Anyways, there are definitely ways to store nfts on-chain as svg files. I don't know if this is possible on stargaze. I think pixel wizards uses svgs, but i dont know if those svgs are stored on-chain.
+
+I need to start poking around the code bases and on-chain stuff for some of the more prominent projects to get a better understanding of what tech is being utilized to deploy projects.
